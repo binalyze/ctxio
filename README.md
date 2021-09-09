@@ -32,6 +32,6 @@ written, err := io.Copy(w, file)
 ## Related Projects
 
 * [context-aware-ioreader-for-golang-by-mat-ryer](https://pace.dev/blog/2020/02/03/context-aware-ioreader-for-golang-by-mat-ryer.html) Context-aware io.Reader for Go.
-* [github.com/jbenet/go-context/io](https://pace.dev/blog/2020/02/03/context-aware-ioreader-for-golang-by-mat-ryer.html)  Context-aware reader and writer.
+* [github.com/jbenet/go-context/io](https://github.com/jbenet/go-context/tree/master/io)  Context-aware reader and writer.
 * [github.com/northbright/ctx/ctxcopy](https://godoc.org/github.com/northbright/ctx/ctxcopy) Context-aware io.Copy.
 * [gitlab.com/streamy/concon](https://godoc.org/gitlab.com/streamy/concon) Context-aware net.Conn.
