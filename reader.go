@@ -9,7 +9,7 @@ import (
 type Reader struct {
 	reader     io.Reader
 	ctx        context.Context
-	progressFn func(int642 int64)
+	progressFn func(int64)
 	mu         sync.RWMutex
 	n          int64
 	err        error
@@ -18,7 +18,7 @@ type Reader struct {
 func noonProgressFn(int64) {}
 
 // NewReader creates a new Reader with the given io.Reader
-func NewReader(ctx context.Context, r io.Reader, progressFn func(int642 int64)) *Reader {
+func NewReader(ctx context.Context, r io.Reader, progressFn func(int64)) *Reader {
 	if ctx == nil {
 		ctx = context.Background()
 	}
